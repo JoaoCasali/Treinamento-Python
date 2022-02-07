@@ -1,0 +1,5 @@
+Criar um algoritico que replique a sequencia de Fibonacci.
+
+requisitos:
+- Escalabilidade (Que possa ser usado com qualquer quantidade de números proposta)
+- Legibilidade e organização do código (variáveis com nomes coerentes, sem espaçamentos desnecessários)
