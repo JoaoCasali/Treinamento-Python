@@ -1,0 +1,10 @@
+Vocês deverão fazer um código que de a raiz quadrada de um número. o usuário deverá colocar um número
+qualquer e o código retornar o resultado.
+
+Requistos:
+- Escalabilidade (Que possa ser usado em qualquer);
+- Legibilidade e organização do código (variáveis com nomes coerentes, sem espaçamentos desnecessários);
+- Comentários explicando cada parte do código;
+
+proibido:
+- usar funções prontas (sqrt do pacote numpy ou afins)
