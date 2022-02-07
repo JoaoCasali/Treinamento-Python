@@ -1,0 +1,5 @@
+O usuário digitará de quantos em quantos dias ele deve tomar uma dose do seu remédio e quantas doses ele deve tomar. O código deverá retornar o dia da ultima dose dessa pessoa.
+
+Requisitos:
+- Legibilidade do código
+- Escalabilidade (Que eu possa ser colocado qualquer parametro)
