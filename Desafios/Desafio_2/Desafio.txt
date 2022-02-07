@@ -1,4 +1,4 @@
-Vocês receberam 3 números e deverão organizalos de maneira decrescente (maior para o menor).
+O usuário digitará 3 números e o código deverá organiza-los de maneira decrescente (maior para o menor).
 requistos:
 -- código limpo (variáveis congruentes)
 -- otimização (menor número de linhas possivel)
