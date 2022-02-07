@@ -1,0 +1,1 @@
+print("A raiz quadrada é:", int(input("Digite o número que você deseja saber a raiz: ")) ** 0.5)

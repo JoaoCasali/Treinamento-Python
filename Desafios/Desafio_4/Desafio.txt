@@ -1,0 +1,8 @@
+O usuário colocará uma uma data (DDMMAAAA) e o programa deverá extrair as informações de dia, mês e ano e coloca-las em variáveis diferentes, printando-as após a organização.
+
+Requisitos:
+- Legibilidade
+- Deverão utilizar expressões matemáticas (//, %, /)
+
+proibido:
+- Fatiamento de string

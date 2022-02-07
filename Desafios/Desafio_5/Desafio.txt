@@ -1,0 +1,7 @@
+O usuário colocará a sua data de nascimento e o código deverá retornar quantos anos, meses e dias ele viveu até então.
+
+Requisitos:
+- Legibilidade
+- Escalabilidade (Que eu possa usar amanhã sem alterar o código)
+- Contagem deve incluir ano bissexto
+- Pode-se considerar todos os meses com 30 dias
