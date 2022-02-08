@@ -1,5 +1,9 @@
-O usuário digitará de quantos em quantos dias ele deve tomar uma dose do seu remédio e quantas doses ele deve tomar. O código deverá retornar o dia da ultima dose dessa pessoa.
+O usuário digitará de quantos em quantos dias ele deve tomar uma dose do seu remédio e quantas doses ele deve tomar. 
+O código deverá retornar o dia da ultima dose dessa pessoa.
 
 Requisitos:
-- Legibilidade do código
-- Escalabilidade (Que eu possa ser colocado qualquer parametro)
+- Deve-se começar a contagem do dia atual em que o programa está sendo utilizado;
+- Deve-se entender que nenhuma dose foi tomada até então;
+- O código deve retornar o dia da semana como resultado (segunda, terça, quarta, etc...);
+- Legibilidade do código;
+- Escalabilidade (Que eu possa ser colocado qualquer parametro);
