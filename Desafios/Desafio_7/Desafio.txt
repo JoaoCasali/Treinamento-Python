@@ -2,8 +2,10 @@ Utilizando funções, crie um código que represente um estoque de uma mercearia
 
 Requisitos:
 - O código deve funcionar infinitamente até que o usuário decida parar a execução;
-- Deve-se utilizar funções em todos os âmbitos cabíveis ;
-- Os produtos devem ter nome, preço, quantidade em estoque e um id de identificação.
-- O usuário poderá pesquisar pelo item utilizando o nome ou o id do próprio
+- Deve-se utilizar funções em todos os âmbitos cabíveis;
+- Os produtos devem ter nome, preço, quantidade em estoque e um id de identificação;
+- O usuário poderá pesquisar pelo item utilizando o nome ou o id do próprio;
+- O estoque não pode ter produtos com o mesmo nome;
+- O programa deve ter uma função que cria produtos automaticamente para testes;
 - Legibilidade do código;
 - Escalabilidade;
