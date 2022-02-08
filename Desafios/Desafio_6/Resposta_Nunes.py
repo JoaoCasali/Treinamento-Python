@@ -3,7 +3,7 @@ dia = date.today().weekday()
 semana = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"]
 
 dose, pausa = int(input("Quantas doses de remédio deve tomar no total? R: ")), int(input("De quanto em quanto tempo deverá tomar as doses? R: "))
-semana = semana * (dose * pausa)
+semana = semana * (dose * pausa + 1 // 7)
 
 while dose != 1:
     dose -= 1
