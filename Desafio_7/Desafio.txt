@@ -1,0 +1,15 @@
+O usuário digitará seu nome completo (Ex: João Vitor de Jesus Casali) e o código manipula-las de formas variadas
+utilizando de funções.
+
+Requisitos:
+- Utilizar funções em python para efetuar as mudanças (defs);
+- A variável que recebe o nome deve permanecer igual;
+- Deve-se aceitar nomes de qualquer tamanho;
+- Deverá printar somente o primeiro nome da pessoa;
+- Deverá printar o ultimo nome em maiúsculo
+- Deverá retornar a letra iniciar de cada palavra em maiúsculo
+- Deverá printar o nome todo em maiúsculo com cada letra separada por espaço (Sem espaços desnecesários entre nomes)
+- Deverá substituir a primeira letra de cada palavra por "x"
+- Cada mudança deve ter uma variável própria
+- Legibilidade do código (não foquem em menos linhas e sim em qualidade da leitura);
+- Escalabilidade;
