@@ -2,7 +2,7 @@ def primeiroNome(nome):
     return nome.split()[0]
 
 def ultimoNome(nome):
-    return nome.split()[-1].capitalize()
+    return nome.split()[-1].upper()
 
 def primeirasLetras(nome):
     letras = ""
@@ -33,7 +33,7 @@ def substituirX(nome):
 while True:
     pergunta = input("Digite um nome a ser manipulado: ")
     print("Primeiro nome:", primeiroNome(pergunta))
-    print("Último nome:", ultimoNome(pergunta))
+    print("Último nome maiúsculo:", ultimoNome(pergunta))
     print("Letras iniciais de cada nome:", primeirasLetras(pergunta))
     print("Nome maiúsculo e espaçado por letra:", maiusculaEspaçada(pergunta))
     print("Nome com letras iniciais substituídas por X:", substituirX(pergunta))
