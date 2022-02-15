@@ -24,6 +24,7 @@ def criptografar(mensagem:str, dicio:dict):
     for l in mensagem:
         mensagemCriptografada.append(str(dicio[l]))
     
+    criarArquivo(' '.join(mensagemCriptografada))
     return ' '.join(mensagemCriptografada)
     
 def descriptografar(mensagem:str, dicio:dict):
@@ -34,7 +35,19 @@ def descriptografar(mensagem:str, dicio:dict):
             if int(i) == valor:
                 mensagemDescriptografada.append(carac)
     
+    
     return ''.join(mensagemDescriptografada)
+
+def criarArquivo(mensagem):
+    arq = open("Desafio_9/Criptografia.txt", 'w')
+    arq.write(mensagem)
+    arq.close()
+
+def lerArquivo(nomeArq):
+    arq = open(f'Desafio_9/{nomeArq}', 'r')
+    mensagem = arq.read()
+    arq.close()
+    return mensagem    
 
 opcao = int(input("""
     1 - Criptografar mensagem
@@ -47,9 +60,13 @@ if opcao == 1:
     mensagem = input("Digite sua mensagem: ")
     print(criptografar(mensagem, dicio))
     print(f"Sua chave de acesso é: {chave}")
-
+    
 elif opcao == 2:
-    mensagem = input("Digite sua mensagem: ")
+    opcao1 = input("Deseja buscar a mensagem de um arquivo? (y/n): ")
+    if opcao1 == 'y':
+        mensagem = lerArquivo(input("Digite o nome do arquivo (Ex: arquivo.txt): "))    
+    else:
+        mensagem = input("Digite sua mensagem: ")
     setChave(int(input("Digite sua chave: ")))
     dicio = gerarDicio(caracteres)
     print(descriptografar(mensagem, dicio))
