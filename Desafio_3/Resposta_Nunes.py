@@ -1,1 +1,0 @@
-print(int(input("Digite um número para obter sua raiz: ")) ** 0.5)

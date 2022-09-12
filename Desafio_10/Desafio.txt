@@ -1,8 +1,0 @@
-Vocês deverão criar um jogo de truco utilizando funções.
-
-requisitos:
-- Escalabilidade (Que possa ser usado em um texto de qualquer tamanho);
-- Legibilidade e organização do código (variáveis com nomes coerentes, sem espaçamentos desnecessários);
-- Comentários explicando cada parte do código;
-- O jogo deverá suportar 4 jogadores;
-- Não pode haver cartas repetidas;

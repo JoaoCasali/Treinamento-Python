@@ -2,7 +2,7 @@ Vocês deverão fazer um código que de a raiz quadrada de um número. o usuári
 qualquer e o código retornar o resultado.
 
 Requistos:
-- Escalabilidade (Que possa ser usado em qualquer);
+- Escalabilidade (Que possa ser usado em qualquer número);
 - Legibilidade e organização do código (variáveis com nomes coerentes, sem espaçamentos desnecessários);
 - Comentários explicando cada parte do código;
 
