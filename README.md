@@ -15,7 +15,7 @@
 - [x] 7. Manipulação de string
 - [x] 8. Estoque de mercearia
 - [x] 9. Criptocrafia
-- [ ] 10. 🚧Em construção🚧
+- [x] 10. Sorteio de nomes
 
 <h4 align='center'>
 🚧Esse portifólio está em construição🚧

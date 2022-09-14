@@ -1,0 +1,7 @@
+Vocês deverão criar um programa que escolha de forma aleatória um nome no arquivo de texto listaDeNomes.txt.
+
+requisitos:
+- Escalabilidade (Que possa ser usado em um arquivo de qualquer tamanho);
+- Legibilidade e organização do código (variáveis com nomes coerentes, sem espaçamentos desnecessários);
+- Comentários explicando cada parte do código;
+- Utilizar a função choice apartir da importação simplificada
