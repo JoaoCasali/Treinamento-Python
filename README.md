@@ -16,6 +16,7 @@
 - [x] 8. Estoque de mercearia
 - [x] 9. Criptocrafia
 - [x] 10. Sorteio de nomes
+- [ ] 11. Cadastro de livros
 
 <h4 align='center'>
 🚧Esse portifólio está em construição🚧

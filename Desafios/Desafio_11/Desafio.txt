@@ -1,0 +1,16 @@
+Vocês deverão criar um cadastro de livros. O programa deve funcionar de forma infinita, parando apenas quando o usuário 
+desejar, contendo a opção de cadastrar um livro, retirar um livro e visualizar os livros cadastrados.
+
+requisitos:
+- Escalabilidade (Que possa ser infinitamente);
+- Legibilidade e organização do código (variáveis com nomes coerentes, sem espaçamentos desnecessários);
+- Comentários explicando o código;
+- NÃO utilizar funções e classes;
+- Deve-se utilizar while;
+- Os dados cadastrais devem ser: 
+  - Nome do livro
+  - Editora
+  - Autor
+  - Genêro
+  - Ano de publicação
+  - ISPN (Deve possuir um método de verificação)
