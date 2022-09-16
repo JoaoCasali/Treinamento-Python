@@ -1,0 +1,13 @@
+Você deve fazer um programa que gerencia listas, funcionando de forma infinita, parando apenas quando o usuário solicitar.
+O programa deve cadastrar listas com um nome dado pelo usuário, deve dar a opção para o usuário digitar os valores dessa lista
+em apenas um input, separando os itens por virgula. A variável que irá guardar os itens deve ser do tipo lista. O usuário deve
+poder visualizar as listas criadas e deletar uma lista existente apenas escrevendo o nome da mesma.
+
+requisitos:
+- Escalabilidade (Que possa ser infinitamente);
+- Legibilidade e organização do código (variáveis com nomes coerentes, sem espaçamentos desnecessários);
+- Comentários explicando o código;
+- NÃO utilizar funções e classes;
+- Deve-se utilizar while;
+- Os dados como nome da lista e os itens dela devem estar armazenados em um dicionário ex:
+  - {"compras": ["banana", "arroz", "feijão"]}

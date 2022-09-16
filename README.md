@@ -17,6 +17,7 @@
 - [x] 9. Criptocrafia
 - [x] 10. Sorteio de nomes
 - [ ] 11. Cadastro de livros
+- [x] 12. Gerenciamento de listas
 
 <h4 align='center'>
 🚧Esse portifólio está em construição🚧

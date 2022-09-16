@@ -39,7 +39,7 @@ def descriptografar(mensagem:str, dicio:dict):
     return ''.join(mensagemDescriptografada)
 
 def criarArquivo(mensagem):
-    arq = open("Desafio_9/Criptografia.txt", 'w')
+    arq = open("Desafios/Desafio_9/Criptografia.txt", 'w')
     arq.write(mensagem)
     arq.close()
 
